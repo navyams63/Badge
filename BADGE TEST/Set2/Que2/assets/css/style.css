@@ -1,0 +1,63 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+form{
+    background-color: rgb(107, 98, 98);
+    
+    width: 500px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: left;
+    padding: 25px;
+    line-height: 2;
+}
+fieldset{
+    text-align: center;   
+    border-radius: 20px;
+}
+fieldset>legend{
+  color: beige;
+  font-weight: bold;
+  font-size: 25px;
+}
+label{
+    color:#fff;
+    font-weight: bold;
+}
+input{
+    width: 300PX;
+    padding: 5px;
+    text-align: center;
+    display: inline;
+    
+}
+#gender>input>{
+    
+}
+.languages{
+    display: inline-block;
+    width: 497px;
+    
+}
+.languages>input{
+    
+}
+button{
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 220px;
+    padding: 8px 15px;
+    font-size: 18px;
+    background-color: rgb(71, 100, 233);
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: bold;
+}
+button:hover{
+    cursor: pointer;
+}
